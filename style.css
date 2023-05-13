@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-    --orange:#ffa500;
+    --blue:#2a83b3;
 }
 
 *{
@@ -15,7 +15,7 @@
 }
 
 ::selection{
-    background: var(--orange) !important;
+    background: var(--blue) !important;
     color: #fff;
 }
 
@@ -36,8 +36,8 @@ section{
 }
 .heading span {
     font-size: 3.5rem;
-    color: var(--orange);
-    background: rgba(255, 165, 0, .2);
+    color: var(--blue);
+    background: #7eb6dd40;
     /* background: white; */
     border-radius: .5rem;
     padding: .2rem 1rem;
@@ -56,15 +56,15 @@ section{
     display: inline-block;
     margin-top: 1rem;
     padding: .8rem 3rem;
-    background: var(--orange);
+    background: var(--blue);
     color: #fff;
     cursor: pointer;
-    border: .2rem solid var(--orange);
+    border: .2rem solid var(--blue);
     font-size: 1.7rem;
 }
 
 .btn:hover{
-    background: rgba(255, 165, 0, .5);
+    background: #2a83b375;
     color: white;
 }
 /* ==================== HEADER ================== */
@@ -88,7 +88,7 @@ header .logo{
 }
 
 header .logo span{
-    color: var(--orange);
+    color: var(--blue);
 }
 header .navbar a{
     font-size: 2rem;
@@ -97,7 +97,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-    color: var(--orange);
+    color: var(--blue);
 }
 
 header .icons i{
@@ -108,7 +108,7 @@ header .icons i{
 }
 
 header .icons i:hover{
-    color: var(--orange);
+    color: var(--blue);
 }
 
 header .search-bar-container{
@@ -143,7 +143,7 @@ header .search-bar-container label{
 }
 
 header .search-bar-container label:hover{
-    color: var(--orange);
+    color: var(--blue);
 }
 
 /* ====================== LOGIN FORM ===================== */
@@ -189,7 +189,7 @@ header .search-bar-container label:hover{
 }
 
 .login-form-container form .box:focus{
-    border-color: var(--orange);
+    border-color: var(--blue);
 }
 
 .login-form-container form #remember {
@@ -210,7 +210,7 @@ header .search-bar-container label:hover{
     font-size: 1.5rem;
 }
 .login-form-container form p a {
-    color: var(--orange);
+    color: var(--blue);
 }
 
 .login-form-container form p a:hover{
@@ -291,11 +291,11 @@ header .search-bar-container label:hover{
 }
 
 .home .controls .vid-btn.active{
-    background: var(--orange);
+    background: var(--blue);
 }
 
 .book {
-    background-color: #fad288
+    background-color: #7eb6dd
 }
 .book .row {
     display: flex;
@@ -368,7 +368,7 @@ header .search-bar-container label:hover{
 }
 
 .packages .box-container .box .content h3 i {
-    color: var(--orange);
+    color: var(--blue);
 }
 
 .packages .box-container .box .content p {
@@ -379,7 +379,7 @@ header .search-bar-container label:hover{
 
 .packages .box-container .box .content .stars i {
     font-size: 1.7rem;
-    color: var(--orange);
+    color: var(--blue);
 }
 
 .packages .box-container .box .content .price {
@@ -395,7 +395,7 @@ header .search-bar-container label:hover{
 }
 
 .services {
-    background-color: #fad288;
+    background-color: #7eb6dd;
 }
 
 .services h1{
@@ -418,7 +418,7 @@ header .search-bar-container label:hover{
 .services .box-container .box i {
     padding: 1rem;
     font-size: 5rem;
-    color: var(--orange);
+    color: var(--blue);
 }
 .services .box-container .box h3 {
     font-size: 2.5rem;
@@ -473,7 +473,7 @@ header .search-bar-container label:hover{
 
 .gallery .box-container .box .content h3 {
     font-size: 2.5rem;
-    color: var(--orange);
+    color: var(--blue);
 }
 
 .gallery .box-container .box .content p {
@@ -481,7 +481,10 @@ header .search-bar-container label:hover{
     color: #fff;
     padding: .5rem 0;
 }
-
+.review {
+    background-color: #7eb6dd;
+    padding-bottom: 4.5rem;
+}
 .review .review-slider {
     padding-top: 2rem;
 }
@@ -491,6 +494,7 @@ header .search-bar-container label:hover{
     text-align: center;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
     border-radius: .5rem;
+    background-color: white;
 }
 
 .review .box img {
@@ -513,7 +517,7 @@ header .search-bar-container label:hover{
 }
 
 .review .box .stars i {
-    color: var(--orange);
+    color: var(--blue);
     font-size: 1.7rem;
 }
 
@@ -597,7 +601,7 @@ header .search-bar-container label:hover{
 }
 
 .footer .box-container .box a:hover {
-    color: var(--orange);
+    color: var(--blue);
     text-decoration: underline;
 }
 
@@ -612,32 +616,8 @@ header .search-bar-container label:hover{
 }
 
 .footer .credit span {
-    color: var(--orange);
+    color: var(--blue);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
