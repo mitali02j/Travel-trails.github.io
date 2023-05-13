@@ -525,19 +525,21 @@
         <div class="image">
             <img src="images/contact.svg" alt="">
         </div>
-        <form action="https://formspree.io/f/xnqyrvze" method="POST">
-            <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
-            </div>
-            <div class="inputBox">
-                <input type="number" placeholder="number">
-                <input type="text" placeholder="subject">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
-            <button type="submit" class="btn">Send Message</button>
 
+
+        <form action="https://formspree.io/f/xnqyrvze" method="POST">
+            <div class="inputBox" >
+                <input type="text" placeholder="Name" name="first name">
+                <input type="email" name="Email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" name="number" placeholder="Number">
+                <input type="text" name="subject" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" name="message" placeholder="Message"></textarea>
+            <button type="submit" class="btn" name="button">Send Message</button>
         </form>
+
     </div>
 </section> 
 <!-- contact section ends here -->
